@@ -139,3 +139,11 @@ nav ul li:active, nav ul li:active a{
 }
 
 /* Footer styles */
+.author-name {
+    color: #a66;
+    font-weight: bold;
+}
+.author-name:hover {
+    text-decoration: none;
+    color: #4078c0;
+}
