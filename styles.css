@@ -71,6 +71,10 @@ header, footer {
     margin: 0;
     letter-spacing: .5rem;
 }
+footer {
+    letter-spacing: 0.01rem;
+    background-color: #cfcece;
+}
 section, aside, nav {
     letter-spacing: .1rem;
     word-spacing: .4rem;
@@ -116,6 +120,7 @@ nav ul li{
     margin-bottom: 2rem;
     margin-right: 2rem;
     padding: 2rem 3rem;
+    cursor: pointer;
 }
 nav ul li a{
     text-decoration: none;
