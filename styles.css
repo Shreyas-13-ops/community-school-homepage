@@ -74,6 +74,7 @@ header, footer {
 footer {
     letter-spacing: 0.01rem;
     background-color: #cfcece;
+    padding: 2rem;
 }
 section, aside, nav {
     letter-spacing: .1rem;
@@ -136,3 +137,5 @@ nav ul li:active, nav ul li:active a{
     color: rgb(47, 44, 46);
     font-weight: bold;
 }
+
+/* Footer styles */
