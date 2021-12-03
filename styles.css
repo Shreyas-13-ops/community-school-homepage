@@ -56,6 +56,7 @@ html {
   /* WRITE YOUR CODE BELOW HERE */
 
 /* || shreyas code starts here */
+
 /* General styling */
 h1, h2 {
     font-family: Arial, Helvetica, sans-serif;
@@ -74,29 +75,57 @@ section, aside, nav {
 h2 + p {
     text-indent: 2rem;
 }
+
 /* Links styling */
-a[href*="https://"] {
+section a[href*="https://"] {
    background-image: url(assets/external-link-icon.png);
    background-position: 100% 0%;
    background-size: contain;
    background-repeat: no-repeat;
 }
-a:link {
+section a:link, aside a:link {
     color: #a26;
     outline: none;
 }
-a:active {
+section a:active, aside a:active {
     color: rgb(251, 13, 132);
 }
-a:focus {
+section a:focus, aside a:focus {
     color: rgb(190, 36, 36);
     text-decoration: none;
 }
-a:hover {
+section a:hover, aside a:hover {
     color: rgb(17, 167, 24);
     text-decoration: none;
 }
+
 /* Lists styling */
 section ul, aside ul {
     list-style: square;
+}
+
+/* Navigation styling */
+nav ul li{
+    border: 2px solid #a26;
+    list-style: none;
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 2rem;
+    margin-right: 2rem;
+    padding: 2rem 3rem;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #a26;
+    font-weight: light;
+}
+nav ul li:hover, nav ul li:hover a{
+    background-color: rgb(173, 76, 125);
+    color: antiquewhite;
+    font-weight: bold;
+}
+nav ul li:active, nav ul li:active a{
+    background-color: rgba(192, 162, 162, 0.945);
+    color: rgb(47, 44, 46);
+    font-weight: bold;
 }
