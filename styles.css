@@ -56,6 +56,7 @@ html {
   /* WRITE YOUR CODE BELOW HERE */
 
 /* || shreyas code starts here */
+/* General styling */
 h1, h2 {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 3.2rem;
@@ -72,4 +73,26 @@ section, aside, nav {
 }
 h2 + p {
     text-indent: 2rem;
+}
+/* Links styling */
+a[href*="https://"] {
+   background-image: url(assets/external-link-icon.png);
+   background-position: 100% 0%;
+   background-size: contain;
+   background-repeat: no-repeat;
+}
+a:link {
+    color: #a26;
+    outline: none;
+}
+a:active {
+    color: rgb(251, 13, 132);
+}
+a:focus {
+    color: rgb(190, 36, 36);
+    text-decoration: none;
+}
+a:hover {
+    color: rgb(17, 167, 24);
+    text-decoration: none;
 }
