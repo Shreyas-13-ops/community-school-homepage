@@ -87,8 +87,8 @@ h2 + p {
 /* Links styling */
 section a[href*="https://"] {
    background-image: url(assets/external-link-icon.png);
-   background-position: 100% 0%;
-   background-size: contain;
+   background-position: right center;
+   background-size: 12px;
    background-repeat: no-repeat;
 }
 section a:link, aside a:link {
