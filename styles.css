@@ -144,11 +144,11 @@ nav ul li:active, nav ul li:active a{
 }
 
 /* Footer styles */
-.author-name {
+.author-name, .project-credit {
     color: #a66;
     font-weight: bold;
 }
-.author-name:hover {
+.author-name:hover, .project-credit:hover {
     text-decoration: none;
     color: #4078c0;
 }
