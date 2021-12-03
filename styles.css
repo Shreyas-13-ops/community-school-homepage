@@ -1,5 +1,12 @@
 /* General setup */
 
+html {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 10px;
+    margin: 0;
+    padding: 0;
+}
+
 * {
     box-sizing: border-box;
   }
@@ -8,6 +15,10 @@
     margin: 0 auto;
     min-width: 1000px;
     max-width: 1400px;
+    /* styles */
+    font-size: 1.6rem;
+    line-height: 1.6;
+    margin-top: 0;
   }
   
   /* Layout */
@@ -45,26 +56,12 @@
   /* WRITE YOUR CODE BELOW HERE */
 
 /* || shreyas code starts here */
-
-html {
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 10px;
-    margin: 0;
-    padding: 0;
-}
-body {
-    font-size: 1.6rem;
-    line-height: 1.6;
-    margin-top: 0;
-}
 h1, h2 {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 3.2rem;
 }
 h1 {
     text-align: center;
-    border-top: 5px solid rebeccapurple;
-    border-bottom: 5px solid rebeccapurple;
     padding: 5rem;
     margin: 0;
     letter-spacing: .5rem;
