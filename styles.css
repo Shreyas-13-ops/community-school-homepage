@@ -96,3 +96,7 @@ a:hover {
     color: rgb(17, 167, 24);
     text-decoration: none;
 }
+/* Lists styling */
+section ul, aside ul {
+    list-style: square;
+}
