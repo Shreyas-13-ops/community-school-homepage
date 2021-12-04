@@ -92,7 +92,7 @@ section a[href*="https://"] {
     padding-right: 19px;
 }
 section a:link, aside a:link {
-    color: #a26;
+    color: blue;
     outline: none;
 }
 section a:active, aside a:active {
@@ -104,6 +104,10 @@ section a:focus, aside a:focus {
 }
 section a:hover, aside a:hover {
     color: rgb(17, 167, 24);
+    text-decoration: none;
+}
+section a:visited, aside a:visited {
+    color: #a26;
     text-decoration: none;
 }
 
