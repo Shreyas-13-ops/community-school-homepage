@@ -96,11 +96,10 @@ section a:link, aside a:link {
     outline: none;
 }
 section a:active, aside a:active {
-    color: rgb(251, 13, 132);
+    background-color: rgb(251, 13, 132);
 }
 section a:focus, aside a:focus {
-    color: rgb(190, 36, 36);
-    text-decoration: none;
+    background-color: #bbbcbe;
 }
 section a:hover, aside a:hover {
     color: rgb(17, 167, 24);
