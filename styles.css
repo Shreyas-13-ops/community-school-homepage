@@ -86,15 +86,10 @@ h2 + p {
 
 /* Links styling */
 section a[href*="https://"] {
-   /* background-image: url(assets/external-link-icon.png);
-   background-position: right center;
-   background-size: 12px;
-   background-repeat: no-repeat; */
-
-   /* temp solution for icon img - need to align img to right */
-   background: url(assets/external-link-icon.png) 0 0 no-repeat;
+   /* to align icon img to right */
+   background: url(assets/external-link-icon.png) 100% 0 no-repeat;
     background-size: 15px 15px;
-    padding-left: 19px;
+    padding-right: 19px;
 }
 section a:link, aside a:link {
     color: #a26;
