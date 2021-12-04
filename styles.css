@@ -91,23 +91,24 @@ section a[href*="https://"] {
     background-size: 15px 15px;
     padding-right: 19px;
 }
-section a:link, aside a:link {
-    color: blue;
+section a, aside a {
     outline: none;
 }
-section a:active, aside a:active {
-    background-color: rgb(251, 13, 132);
+section a:link, aside a:link {
+    color: #a26;
+}
+section a:visited, aside a:visited {
+    color: blue;
 }
 section a:focus, aside a:focus {
     background-color: #bbbcbe;
 }
 section a:hover, aside a:hover {
-    color: rgb(17, 167, 24);
+    color: rgb(230, 26, 128);
     text-decoration: none;
 }
-section a:visited, aside a:visited {
-    color: #a26;
-    text-decoration: none;
+section a:active, aside a:active {
+    color: rgb(17, 167, 24);
 }
 
 /* Lists styling */
